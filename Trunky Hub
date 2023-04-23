@@ -1,0 +1,10 @@
+_G.key = "no homo"
+
+local keys = {
+   "Nsm243",
+   "NamzIsReal"
+}
+
+if table.find(key, _G.key) then
+   print("Whitelisted")
+end
